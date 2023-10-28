@@ -12,9 +12,9 @@ body {
     align-items: center;
 }
 
-.container {
+.iconContainer {
     width: 100%;
-    padding: 1em;
+    padding: 2em;
     background-color: rgba(246, 214, 60, 0.76);
     box-shadow: 4px 4px 15px black;
     display: flex;
@@ -26,7 +26,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .mySlides {
@@ -35,21 +34,17 @@ body {
     border-radius: 10px;
     box-shadow: 2px 2px 10px black;
     cursor: pointer;
-}
-.buttons {
-    margin: 1rem;
+    opacity: 0.6;
 }
 
-.buttonLeft, .buttonRight {
-    width: 5rem;
-    height: 3rem;
-    background-color: #f3d66c;
-    border-radius: 10%;
-    cursor: pointer;
+.mySlides:hover {
+    transform: scale(1.1);
+    opacity: 1;
 }
 
-.buttonLeft:hover, .buttonRight:hover {
-    background-color: #ffe9ae;
+.information {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
 }
-
 

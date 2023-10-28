@@ -129,7 +129,7 @@ body {
 }
 .footerContainer {
     display: flex;
-    background-color: ghostwhite;
+
     text-shadow: 0 0 20px blueviolet;
     flex-direction: column;
 }
