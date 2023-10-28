@@ -99,20 +99,26 @@ body {
     width: 100%;
 }
 
+.topic:hover {
+    color: white;
+}
+
 .games {
     border: none;
     background-color: #f3d66c;
+    color: #85783b;
 }
-
 
 .animes {
     border: none;
     background-color: #e90126;
+    color: #8f001b;
 }
 
 .music {
     border: none;
     background-color: #3a6952;
+    color: #1f3a2d;
 }
 
 @media screen and (max-width: 375px) {
@@ -140,6 +146,6 @@ body {
     color: black;
 }
 
-a:hover{
+.impressum:hover{
     background-color: grey;
 }
