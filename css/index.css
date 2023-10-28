@@ -5,14 +5,33 @@ body {
 
 .headerContainer {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-between;
     align-content: center;
+    border: 1px solid red;
+    height: 20vh;
+}
+.headerBanner {
+    display: flex;
+    position: absolute;
+    z-index: auto;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
+.headerBanner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .navbar {
-
+    z-index: 1;
     justify-self: right;
+}
+.titleLogo {
+    z-index: 1;
 }
 
 .navbar ul {
@@ -33,7 +52,7 @@ body {
     text-decoration: none;
 }
 .navbar li a:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
     cursor: pointer;
 }
 .titleLogo {
@@ -138,12 +157,10 @@ body {
     justify-content: space-around;
 }
 .head{
-
     font-size:  15px;
     color: darkolivegreen;
 }
 .kontakt{
-
     color: black;
 }
 
