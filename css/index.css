@@ -12,7 +12,7 @@ body {
     position: relative;
     justify-content: space-between;
     align-content: center;
-    height: 30vh;
+    height: 13em;
 }
 .headerBanner {
     display: flex;
@@ -30,9 +30,6 @@ body {
 .navbar {
     z-index: 1;
     justify-self: right;
-}
-.titleLogo {
-    z-index: 1;
 }
 
 .navbar ul {
@@ -59,7 +56,14 @@ body {
 .titleLogo {
     display: flex;
     align-items: center;
+    background: #1f3a2d;
+    border-radius: 50%;
+    z-index: 1;
     flex-direction: column;
+}
+.titleLogo span {
+    font-size: 1.5em;
+    color: whitesmoke;
 }
 
 .mainContainer {
