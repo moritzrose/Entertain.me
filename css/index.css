@@ -57,8 +57,6 @@ body {
     padding: 2rem;
     border: 1px solid black;
     min-width: 25%;
-    height: 100%;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,34 +66,30 @@ body {
     text-decoration: none;
     box-shadow: 5px 5px 20px black;
     border-radius: 10px;
-}
-
-.topic button {
     position: relative;
-    margin-top: 4rem;
-    padding: 1rem;
-    border-radius: 10px;
-    border: none;
     overflow: hidden;
 }
 
-.topic button:before {
+.topic:hover {
+    transform: scale(1.1);
+}
+
+.topic:hover:before{
+    animation: shine 3s linear;
+}
+.topic:before {
     content: '';
     position: absolute;
-    width: 100px;
+    width: 400px;
     height: 100%;
     background-image: linear-gradient(
             120deg,
-            rgba(255, 255, 255, 0) 10%,
-            rgba(255, 255, 255, .4),
-            rgba(255, 255, 255, 0) 90%
+            rgba(255,255,255, 0) 30%,
+            rgba(255,255,255, .8),
+            rgba(255,255,255, 0) 70%
     );
     top: 0;
-    left: -100px;
-}
-
-.topic button:hover:before{
-    animation: shine 3s linear;
+    left: -500px;
 }
 @keyframes shine {
     20% {
@@ -104,23 +98,6 @@ body {
     100% {
         left: 100%
     }
-}
-
-
-.topic .buttonGames {
-    background-color: #f3d66c;
-}
-
-.topic .buttonAnimes {
-    background-color: #e90126;
-}
-
-.topic .buttonMusic {
-    background-color: #3a6952;
-}
-
-.topic:hover {
-    transform: scale(1.1);
 }
 
 .topic img {
@@ -132,6 +109,7 @@ body {
     border: none;
     background-color: #f3d66c;
 }
+
 
 .animes {
     border: none;
