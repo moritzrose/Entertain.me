@@ -148,3 +148,26 @@ body {
         flex-direction: column;
     }
 }
+.footerContainer {
+    display: flex;
+    background-color: ghostwhite;
+    text-shadow: 0 0 20px blueviolet;
+    flex-direction: column;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+.head{
+
+    font-size:  15px;
+    color: darkolivegreen;
+}
+.kontakt{
+
+    color: black;
+}
+
+a:hover{
+    background-color: grey;
+}
