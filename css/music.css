@@ -1,7 +1,9 @@
+body {
+    background-color: #3a6952;
+}
 .music_MainContainer {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
     justify-content: center;
 }
 
@@ -13,21 +15,17 @@
 .music_class_nav {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
-    background-color: orange;
     justify-content: space-around;
     padding-top: 1em;
-    max-width: 1200px;
+    max-width: 1600px;
 }
 
 .music_item {
     display: flex;
-    border: 1px solid red;
     margin: 0.75em;
     height: 17.5em;
     width: 17.5em;
     box-sizing: border-box;
-    box-shadow: 10px 5px 5px red;
 }
 .music_item:hover {
     transform: scale(1.1);
