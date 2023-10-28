@@ -1,6 +1,7 @@
 body {
     background-color: #3a6952;
 }
+
 .music_MainContainer {
     display: flex;
     flex-wrap: wrap;

@@ -6,26 +6,86 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/games.css">
 </head>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        highlightSlide(20);
+    })
+    function highlightSlide(n) {
+        var x = document.getElementsByClassName("mySlides");
+
+        for (let i = 0; i < x.length; i++) {
+            if (i === n){
+                x[i].style.opacity = "1";
+            }
+            else x[i].style.opacity = "0.6";
+        }
+    }
+</script>
 <body>
 <header>
     <div class="headerContainer">
         <div class="titleLogo">
             <a href="index.html">
-                <img width="60em" src="images/duck.png"
+                <img width="60rem" src="images/duck.png"
                      alt="picture of a duck  wearing sunglasses and holding surfboard">
             </a>
-            <span>ENTErtain.me</span>
+            <span>ENTErtain.me - Games</span>
         </div>
 
         <div class="navbar">
             <ul>
-                <li><a href="">Games</a></li>
-                <li><a href="">Animes</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="animes.html">Animes</a></li>
                 <li><a href="music.html">Music</a></li>
-                <li><a href="">About</a></li>
             </ul>
         </div>
     </div>
 </header>
+
+
+<main class="wrapper">
+    <div class="container">
+        <div class="slides">
+            <img class="mySlides" onclick="highlightSlide(0)" src="./images/games_ark.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(1)" src="./images/games_apex.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(2)" src="./images/games_civ6.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(3)" src="./images/games_factorio.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(4)" src="./images/games_diablo4.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(5)" src="./images/games_baldurs.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(6)" src="./images/games_eldenring.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(7)" src="./images/games_hogwartsLegacy.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(8)" src="./images/games_medieval.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(9)" src="./images/games_newWorld.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(10)" src="./images/games_rust.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(11)" src="./images/games_satisfactory.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(12)" src="./images/games_sims4.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(13)" src="./images/games_skylines.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(14)" src="./images/games_skyrim.jpg" alt="">
+            <img class="mySlides" onclick="highlightSlide(15)" src="./images/games_terraria.jpg" alt="">
+        </div>
+    </div>
+</main>
+
+
+<footer>
+    <div class="footerContainer">
+        <h5 class="head">Entertain.me AG für Entertainment:</h5>
+        <ul class="list">
+            <li class="produkte"><a class="impressum" href="">Produkte</a></li>
+            <li class="leistung"><a class="impressum" href="">Leistungen</a></li>
+            <li class="team"><a class="impressum" href="">Team</a></li>
+            <li class="support"><a class="impressum" href="">Support</a></li>
+
+        </ul>
+        <ul class="kontakt"> Kontakt:
+            <li class="tel">☎️<a href="tel:+4733378901">+47 333 78 901</a></li>
+
+            <li class="email">📧<a href="Email:Entertain.me@entertain.AG.de">Entertain.me@entertain.AG.de</a></li>
+
+        </ul>
+    </div>
+
+</footer>
+
 </body>
 </html>
