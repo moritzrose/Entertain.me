@@ -16,11 +16,34 @@ body {
     justify-self: right;
 }
 
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    font-family: monospace;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
 .titleLogo {
     display: flex;
     border: 1px solid red;
     align-items: center;
     flex-direction: column;
+    font-size: xx-large;
 }
 
 main {
@@ -108,7 +131,6 @@ main {
     width: 100%;
 }
 
-
 .games {
     border: none;
     background-color: #f3d66c;
@@ -118,14 +140,6 @@ main {
     border: none;
     background-color: #e90126;
 }
-
-.music {
-    border: none;
-    background-color: #3a6952;
-}
-
-
-
 
 @media screen and (max-width: 375px) {
     .mainContainer {
