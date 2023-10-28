@@ -1,0 +1,150 @@
+body {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    border: 1px solid;
+}
+
+.navbar {
+    border: 1px solid red;
+    justify-self: right;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    font-family: monospace;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.titleLogo {
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainContainer {
+    margin: 3rem;
+    padding: 2rem;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+
+.topic {
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px solid black;
+    min-width: 25%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 20rem;
+    color: white;
+    text-decoration: none;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 10px;
+}
+
+.topic button {
+    position: relative;
+    margin-top: 4rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+}
+
+.topic button:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+            120deg,
+            rgba(255, 255, 255, 0) 10%,
+            rgba(255, 255, 255, .4),
+            rgba(255, 255, 255, 0) 90%
+    );
+    top: 0;
+    left: -100px;
+}
+
+.topic button:hover:before{
+    animation: shine 3s linear;
+}
+@keyframes shine {
+    20% {
+        left: 100%
+    }
+    100% {
+        left: 100%
+    }
+}
+
+
+.topic .buttonGames {
+    background-color: #f3d66c;
+}
+
+.topic .buttonAnimes {
+    background-color: #e90126;
+}
+
+.topic .buttonMusic {
+    background-color: #3a6952;
+}
+
+.topic:hover {
+    transform: scale(1.1);
+}
+
+.topic img {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.games {
+    border: none;
+    background-color: #f3d66c;
+}
+
+.animes {
+    border: none;
+    background-color: #e90126;
+}
+
+.music {
+    border: none;
+    background-color: #3a6952;
+}
+
+@media screen and (max-width: 375px) {
+    .mainContainer {
+        flex-direction: column;
+    }
+}
