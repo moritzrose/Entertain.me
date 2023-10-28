@@ -1,9 +1,6 @@
 body {
     font-family: monospace;
-<<<<<<<<< Temporary merge branch 1
-=========
     font-size: 20px;
->>>>>>>>> Temporary merge branch 2
 }
 
 .headerContainer {
@@ -11,11 +8,10 @@ body {
     align-items: center;
     justify-content: space-between;
     align-content: center;
-    border: 1px solid;
 }
 
 .navbar {
-    border: 1px solid red;
+
     justify-self: right;
 }
 
@@ -42,7 +38,6 @@ body {
 }
 .titleLogo {
     display: flex;
-    border: 1px solid red;
     align-items: center;
     flex-direction: column;
     font-size: xx-large;
@@ -52,14 +47,12 @@ body {
     margin: 3rem;
     padding: 2rem;
     display: flex;
-    border: 1px solid black;
     justify-content: space-evenly;
 }
 
 .topic {
     margin: 1rem;
     padding: 2rem;
-    border: 1px solid black;
     min-width: 25%;
     height: 100%;
     overflow: hidden;
@@ -68,9 +61,7 @@ body {
     justify-content: center;
     text-align: center;
     max-width: 20rem;
-    color: white;
     text-decoration: none;
-    box-shadow: 5px 5px 20px black;
     border-radius: 10px;
 }
 
