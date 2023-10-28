@@ -62,6 +62,7 @@ body {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    box-shadow: 5px 5px 30px black;
 }
 
 .topic:hover {
