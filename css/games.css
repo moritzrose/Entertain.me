@@ -13,7 +13,6 @@ body {
 }
 
 .iconContainer {
-    width: 100%;
     padding: 2em;
     background-color: rgba(246, 214, 60, 0.76);
     box-shadow: 4px 4px 15px black;
