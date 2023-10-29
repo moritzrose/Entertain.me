@@ -80,6 +80,8 @@ main {
     padding: 2rem;
     display: flex;
     justify-content: space-evenly;
+    background: url("../images/mainBackground.png") no-repeat;
+    background-size: cover;
 }
 
 .topic {
