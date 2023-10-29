@@ -85,6 +85,12 @@ main {
     background-size: cover;
 }
 
+@media screen and (max-width:375px){
+    .mainContainer {
+        flex-direction: column;
+    }
+}
+
 .topic {
     margin: 1rem;
     padding: 2rem;
