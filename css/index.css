@@ -163,7 +163,7 @@ main {
 }
 .footerContainer {
     display: flex;
-
+    background-color: black;
     text-shadow: 0 0 20px blueviolet;
     flex-direction: column;
 }
