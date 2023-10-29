@@ -165,18 +165,6 @@ main {
     color: #1f3a2d;
 }
 
-@media screen and (min-width: 376px) {
-    .mainContainer {
-        flex-direction: column;
-        align-items: center;
-    }
-    .topic {
-        width: 70%;
-        margin: 3rem;
-    }
-
-}
-
 .footerContainer {
     display: flex;
     background-color: transparent;
@@ -197,4 +185,15 @@ main {
 
 .impressum:hover{
     background-color: transparent;
+}
+
+@media screen and (max-width: 415px) {
+    .mainContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .topic {
+        width: 70%;
+        margin: 3rem;
+    }
 }
