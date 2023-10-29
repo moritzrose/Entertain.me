@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: monospace;
     font-size: 20px;
+    background-color: black;
 }
 main {
     margin:0;
@@ -82,6 +83,12 @@ main {
     justify-content: space-evenly;
     background: url("../images/mainBackground.png") no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width:375px){
+    .mainContainer {
+        flex-direction: column;
+    }
 }
 
 .topic {
