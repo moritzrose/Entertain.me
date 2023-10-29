@@ -28,17 +28,22 @@ body {
 }
 
 .navbar {
+    height: auto;
     z-index: 1;
-    justify-self: right;
+    margin: 2em;
+    padding-top: 7em;
 }
 
 .navbar ul {
     list-style-type: none;
+    font-size: 1em;
     margin: 0;
     padding: 0;
 }
 .navbar li {
     float: left;
+    border: 1px solid black;
+    background-color: white;
 }
 
 .navbar li a {
@@ -46,24 +51,23 @@ body {
     font-family: monospace;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.5em 1rem;
     text-decoration: none;
 }
 .navbar li a:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 }
 .titleLogo {
+    margin: 2em;
     display: flex;
-    align-items: center;
-    background: #1f3a2d;
-    border-radius: 50%;
-    z-index: 1;
     flex-direction: column;
-}
-.titleLogo span {
-    font-size: 1.5em;
-    color: whitesmoke;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: xxx-large;
+    font-weight: bold;
+    align-items: center;
+    z-index: 1;
 }
 
 .mainContainer {
