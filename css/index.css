@@ -12,7 +12,7 @@ body {
     position: relative;
     justify-content: space-between;
     align-content: center;
-    height: 13em;
+    height: 25rem;
 }
 .headerBanner {
     display: flex;
