@@ -165,14 +165,21 @@ main {
     color: #1f3a2d;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 376px) {
     .mainContainer {
         flex-direction: column;
+        align-items: center;
     }
+    .topic {
+        width: 70%;
+        margin: 3rem;
+    }
+
 }
+
 .footerContainer {
     display: flex;
-    background-color: black;
+    background-color: transparent;
     text-shadow: 0 0 20px blueviolet;
     flex-direction: column;
 }
@@ -189,5 +196,5 @@ main {
 }
 
 .impressum:hover{
-    background-color: black;
+    background-color: transparent;
 }
