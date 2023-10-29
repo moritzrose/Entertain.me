@@ -87,7 +87,7 @@ main {
 .topic {
     margin: 1rem;
     padding: 2rem;
-    width: 20%;
+    width: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
