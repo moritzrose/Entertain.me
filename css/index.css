@@ -70,7 +70,7 @@ body {
 }
 
 .topic:hover:before{
-    animation: shine 3s linear;
+    animation: shine 1.5s linear;
 }
 .topic:before {
     content: '';
@@ -115,7 +115,9 @@ body {
     background-color: #e90126;
     color: #8f001b;
 }
-
+.animesIcon {
+    border-radius: 0 0 5% 5%;
+}
 .music {
     border: none;
     background-color: #3a6952;
