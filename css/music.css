@@ -1,10 +1,14 @@
-body {
-    background-color: #3a6952;
+main {
+    margin:0;
+    padding: 0;
 }
+
 .music_MainContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: url("../images/musicBackground.png") no-repeat;
+    background-size: cover;
 }
 
 .music_item img {
@@ -25,7 +29,10 @@ body {
     margin: 0.75em;
     height: 17.5em;
     width: 17.5em;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 8px 8px 8px black;
 }
 .music_item:hover {
     transform: scale(1.1);

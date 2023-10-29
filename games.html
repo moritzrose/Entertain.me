@@ -2,30 +2,224 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ENTEtain.me-Games</title>
+    <title>ENTErtain.me - Games</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/games.css">
 </head>
+<script>
+
+    function showModal(n) {
+        event.stopPropagation();
+        let modalWindow = document.getElementById("modalWindow")
+        let steamLinks = [
+            "https://store.steampowered.com/app/2399830/ARK_Survival_Ascended/",
+            "https://store.steampowered.com/app/1172470/Apex_Legends/",
+            "https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/",
+            "https://store.steampowered.com/app/427520/Factorio/",
+            "https://store.steampowered.com/app/2344520/Diablo_IV/",
+            "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/",
+            "https://store.steampowered.com/app/1245620/ELDEN_RING/",
+            "https://store.steampowered.com/app/990080/Hogwarts_Legacy/",
+            "https://store.steampowered.com/app/1129580/Medieval_Dynasty/",
+            "https://store.steampowered.com/app/1063730/New_World/",
+            "https://store.steampowered.com/app/252490/Rust/",
+            "https://store.steampowered.com/app/526870/Satisfactory/",
+            "https://store.steampowered.com/app/1222670/The_Sims_4/,",
+            "https://store.steampowered.com/app/949230/Cities_Skylines_II/",
+            "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/",
+            "https://store.steampowered.com/app/105600/Terraria/",
+        ]
+        let iFrames = document.getElementsByTagName("iframe")
+        for (let element of iFrames) {
+            element.style.display = "none"
+        }
+
+        let iFrame = document.getElementById(n)
+        iFrame.style.display = "block"
+        let steamLink = document.getElementById("steamLink")
+        steamLink.href = steamLinks[n]
+
+        modalWindow.style.display = "block";
+    }
+
+    function closeModal(){
+        let modalWindow = document.getElementById("modalWindow")
+        modalWindow.style.display = "none"
+    }
+</script>
 <body>
 <header>
     <div class="headerContainer">
+        <div class="headerBanner">
+            <img src="images/gamesBanner.png" alt="">
+        </div>
         <div class="titleLogo">
-            <a href="index.html">
-                <img width="60em" src="images/duck.png"
-                     alt="picture of a duck  wearing sunglasses and holding surfboard">
-            </a>
+            <a href="index.html" class="logoImage"><img width="180em" src="images/ENTErtain.meGames.png" alt="picture of a duck  wearing sunglasses and holding surfboard"></a>
             <span>ENTErtain.me</span>
         </div>
 
         <div class="navbar">
             <ul>
-                <li><a href="">Games</a></li>
-                <li><a href="">Animes</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="animes.html">Animes</a></li>
                 <li><a href="music.html">Music</a></li>
-                <li><a href="">About</a></li>
             </ul>
         </div>
     </div>
 </header>
+
+
+<main class="wrapper" onclick="closeModal()">
+    <div class="iconContainer">
+        <div class="slides">
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(0)" src="./images/games_ark.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(1)" src="./images/games_apex.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(2)" src="./images/games_civ6.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(3)" src="./images/games_factorio.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(4)" src="./images/games_diablo4.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(5)" src="./images/games_baldurs.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(6)" src="./images/games_eldenring.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(7)" src="./images/games_hogwartsLegacy.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(8)" src="./images/games_medieval.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(9)" src="./images/games_newWorld.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(10)" src="./images/games_rust.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(11)" src="./images/games_satisfactory.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(12)" src="./images/games_sims4.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(13)" src="./images/games_skylines.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(14)" src="./images/games_skyrim.jpg" alt="">
+            </div>
+            <div class="iconBackground">
+                <img class="mySlides" onclick="showModal(15)" src="./images/games_terraria.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="modalWindow" class="modal">
+        <div class="closeIcon">X</div>
+        <div class="modalContent">
+            <iframe id="0" width="560" height="315" src="https://www.youtube.com/embed/xxy8UEqvB6s?si=BZe8uuu4HYCtkqGg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="1" width="560" height="315" src="https://www.youtube.com/embed/oQtHENM_GZU?si=VShoOCbcST5bgdec"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="2" width="560" height="315" src="https://www.youtube.com/embed/5KdE0p2joJw?si=VDF0mewMNFlocBB3"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="3" width="560" height="315" src="https://www.youtube.com/embed/J8SBp4SyvLc?si=3PNPoOo5hK13KNpN"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="4" width="560" height="315" src="https://www.youtube.com/embed/Ro26B394ZBM?si=z8Mz-lX51AGjdXTH"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="5" width="560" height="315" src="https://www.youtube.com/embed/1T22wNvoNiU?si=btCgoI7RFhV2_-wM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="6" width="560" height="315" src="https://www.youtube.com/embed/E3Huy2cdih0?si=xTlEgoIYuxdQSs3Z"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="7" width="560" height="315" src="https://www.youtube.com/embed/NthGfn_ddRQ?si=Ji6FLbTrPBVwM3QA"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="8" width="560" height="315" src="https://www.youtube.com/embed/0m_XJdDvcf4?si=Q1eaiCCQlCDAVhMx"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="9" width="560" height="315" src="https://www.youtube.com/embed/m1C5dLnvlzg?si=GW7leZF_mnd90gUB"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="10" width="560" height="315" src="https://www.youtube.com/embed/LGcECozNXEw?si=NviE7YUSu4fpBNQD"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="11" width="560" height="315" src="https://www.youtube.com/embed/QvWaV4qshZQ?si=fPVQHFus1aQfsDwc"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="12" width="560" height="315" src="https://www.youtube.com/embed/DyNv44QR14g?si=wU4moYvrOLDGSNK8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="13" width="560" height="315" src="https://www.youtube.com/embed/7vlKoMi4Qr0?si=-FRfD2IoH7lHkrmz"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="14" width="560" height="315" src="https://www.youtube.com/embed/JSRtYpNRoN0?si=2loWtUfHjGtuRzUs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <iframe id="15" width="560" height="315" src="https://www.youtube.com/embed/6nUvWkD8rAE?si=wGzaFPq1h0n9Yrma"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            <div class="information">
+                <a class="steamLink" id="steamLink" href="">
+                    <img id="steamLogo" src="images/steam.png" alt="a steam icon">
+                    Go to Steam
+                </a>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<footer>
+    <div class="footerContainer">
+        <h5 class="head">Entertain.me AG für Entertainment:</h5>
+        <ul class="list">
+            <li class="produkte"><a class="impressum" href="">Produkte</a></li>
+            <li class="leistung"><a class="impressum" href="">Leistungen</a></li>
+            <li class="team"><a class="impressum" href="">Team</a></li>
+            <li class="support"><a class="impressum" href="">Support</a></li>
+
+        </ul>
+        <ul class="kontakt"> Kontakt:
+            <li class="tel">☎️<a href="tel:+4733378901">+47 333 78 901</a></li>
+
+            <li class="email">📧<a href="Email:Entertain.me@entertain.AG.de">Entertain.me@entertain.AG.de</a></li>
+
+        </ul>
+    </div>
+
+</footer>
+
 </body>
 </html>
