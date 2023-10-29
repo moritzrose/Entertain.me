@@ -1,11 +1,14 @@
-body {
-    background-color: #3a6952;
+main {
+    margin:0;
+    padding: 0;
 }
 
 .music_MainContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: url("../images/musicBackground.png") no-repeat;
+    background-size: cover;
 }
 
 .music_item img {
