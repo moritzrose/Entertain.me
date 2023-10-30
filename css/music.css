@@ -27,13 +27,43 @@ main {
 .music_item {
     display: flex;
     margin: 0.75em;
-    height: 17.5em;
-    width: 17.5em;
-    /*box-sizing: border-box;*/
+    height: 20em;
+    width: 20em;
     border-radius: 10%;
     overflow: hidden;
+    filter: grayscale(80%);
     box-shadow: 8px 8px 8px black;
 }
 .music_item:hover {
     transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.navbar li {
+    border: 2px solid #3a6952;
+}
+
+.navbar li a {
+    background-color: black;
+    color: #3a6952;
+}
+
+.titleLogo {
+    text-shadow: -1px 0 #3a6952, 0 1px #3a6952, 1px 0 #3a6952, 0 -1px #3a6952;
+}
+
+@media (min-width: 1200px) {
+    .titleLogo {
+        margin: 0 0 0 4.5em;
+        display: flex;
+        flex-direction: column;
+        text-shadow: -1px 0 #3a6952, 0 1px #3a6952, 1px 0 #3a6952, 0 -1px #3a6952;
+        color: black;
+        font-size: xxx-large;
+        font-weight: bold;
+        align-items: center;
+        z-index: 1;
+    }
+    .navbar li {
+        border: 2px solid #3a6952;
+    }
 }
