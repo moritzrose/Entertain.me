@@ -66,7 +66,7 @@ body {
    min-height: 300px;
     min-width: 300px;
     color: aliceblue;
-    border-radius: 5px;
+    border-radius: 10px;
 
 
 }
@@ -77,6 +77,7 @@ body {
     min-height: 300px;
     min-width: 300px;
     color: aliceblue;
+    border-radius: 10px;
 }
 
 .saga {
@@ -86,6 +87,7 @@ body {
     min-height: 300px;
     min-width: 300px;
     color: aliceblue;
+    border-radius: 10px;
 }
 
 .neverland {
@@ -94,6 +96,7 @@ body {
     min-height: 300px;
     min-width: 300px;
     color: aliceblue;
+    border-radius: 10px;
 }
 
 .conan {
@@ -102,6 +105,7 @@ body {
     min-height: 300px;
     min-width: 300px;
     color: aliceblue;
+    border-radius: 10px;
 
 }
 .death{
@@ -110,45 +114,14 @@ body {
     min-height: 300px;
     min-width: 300px;
     color: aliceblue;
+    border-radius: 10px;
 }
 
 
 
 /* Styles for desktop screens */
 /* These will be applied for screens wider than 730px */
-@media (min-width: 731px) {
-    .AnimemainContainer {
-        display: flex;
-        flex-flow: column;
-    }
 
-    .container1, .container2 {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-    }
-
-
-    .peace, .attack, .saga, .neverland, .conan, .death {
-        flex-basis: auto;
-    }
-
-
-    /* screens up to 730px */
-    @media (max-width: 730px) {
-        body {
-            font-size: 16px; /* Smaller font size for better mobile readability */
-        }
-
-
-    }
-
-    /* stat footer*/
-
-
-
-
-}
 /* stat footer*/
 
 
@@ -175,6 +148,7 @@ body {
     text-shadow: -1px 0 #e90126, 0 1px #e90126, 1px 0 #e90126, 0 -1px #e90126;
 }
 
+
 @media (min-width: 1200px) {
     .titleLogo {
         margin: 2rem 0 0 9rem;
@@ -193,5 +167,7 @@ body {
     .navbar {
         margin-top: 9rem;
     }
+
+
 }
 
