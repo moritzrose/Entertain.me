@@ -139,7 +139,7 @@ body {
 
 @media (min-width: 1200px) {
     .titleLogo {
-        margin: 0 0 0 4.5em;
+        margin: 2rem 0 0 9rem;
         display: flex;
         flex-direction: column;
         text-shadow: -1px 0 #e90126, 0 1px #e90126, 1px 0 #e90126, 0 -1px #e90126;
@@ -151,6 +151,9 @@ body {
     }
     .navbar li {
         border: 2px solid #e90126;
+    }
+    .navbar {
+        margin-top: 9rem;
     }
 }
 
