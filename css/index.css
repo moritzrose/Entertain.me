@@ -75,21 +75,6 @@ main {
     z-index: 1;
 }
 
-    .navbar li {
-        float: left;
-        font-size: 10px;
-        border: 2px solid white;
-
-    }
-    .navbar {
-        padding-top: 0;
-        margin-left: 0;
-        margin-bottom: 0;
-        margin-top: 6.5em;
-        height: auto;
-        z-index: 1;
-    }
-
 .mainContainer {
     margin-bottom: 4rem;
     padding: 20rem 2rem;
@@ -195,7 +180,7 @@ main {
 }
 @media (min-width: 800px) {
     .topic {
-        width: 30%;
+        width: 45%;
     }
 }
 
@@ -206,6 +191,20 @@ main {
         flex-direction: column;
         color: black;
         font-size: xxx-large;
+        z-index: 1;
+    }
+    .navbar li {
+        float: left;
+        font-size: 10px;
+        border: 2px solid white;
+
+    }
+    .navbar {
+        padding-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 6.5em;
+        height: auto;
         z-index: 1;
     }
     .mainContainer {
