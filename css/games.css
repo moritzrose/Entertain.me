@@ -67,8 +67,8 @@ body {
 .closeIcon {
     position: absolute;
     font-size: 2rem;
-    right: 0;
-    top: 0;
+    right: -1.5rem;
+    top: -1.5rem;
     border-radius: 50%;
     background-color: #7c7c7c;
     color: antiquewhite;
