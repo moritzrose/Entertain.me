@@ -165,14 +165,9 @@ main {
     color: #1f3a2d;
 }
 
-@media screen and (max-width: 375px) {
-    .mainContainer {
-        flex-direction: column;
-    }
-}
 .footerContainer {
     display: flex;
-    background-color: black;
+    background-color: transparent;
     text-shadow: 0 0 20px blueviolet;
     flex-direction: column;
 }
@@ -189,5 +184,26 @@ main {
 }
 
 .impressum:hover{
-    background-color: black;
+    background-color: transparent;
 }
+
+.mainContainer {
+    flex-direction: column;
+    align-items: center;
+}
+.topic {
+    width: 70%;
+    margin: 3rem;
+}
+
+@media (min-width: 1000px) {
+    .mainContainer {
+        flex-direction: row;
+        align-items: center;
+    }
+    .topic {
+        width: 15%;
+        margin: 1rem;
+    }
+}
+
