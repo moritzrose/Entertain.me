@@ -207,9 +207,7 @@ main {
 }
 @media (min-width: 800px) {
     .topic {
-        flex-direction: column;
-        width: 20%;
-        align-items: center;
+        width: 50%;
     }
 }
 
