@@ -83,6 +83,8 @@ main {
     justify-content: space-evenly;
     background: url("../images/mainBackground.png") no-repeat;
     background-size: cover;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media screen and (max-width:375px){
@@ -92,9 +94,9 @@ main {
 }
 
 .topic {
-    margin: 1rem;
+    margin: 3rem;
     padding: 2rem;
-    width: 15%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,34 +168,18 @@ main {
 }
 
 .footerContainer {
+    text-decoration: none;
+    color: #bbbbbb;
+    padding: 1em;
     display: flex;
     background-color: transparent;
-    text-shadow: 0 0 20px blueviolet;
     flex-direction: column;
+    font-size:  0.8rem;
 }
 .list {
     display: flex;
     justify-content: space-around;
-}
-.head{
-    font-size:  15px;
-    color: darkolivegreen;
-}
-.kontakt{
-    color: black;
-}
-
-.impressum:hover{
-    background-color: transparent;
-}
-
-.mainContainer {
-    flex-direction: column;
-    align-items: center;
-}
-.topic {
-    width: 70%;
-    margin: 3rem;
+    text-decoration: none;
 }
 
 @media (min-width: 1000px) {
