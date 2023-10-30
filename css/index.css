@@ -101,7 +101,8 @@ main {
 }
 
 .mainContainer {
-    padding: 2rem;
+    margin-bottom: 4rem;
+    padding: 20rem 2rem;
     display: flex;
     justify-content: space-evenly;
     background: url("../images/mainBackground.png") no-repeat;
