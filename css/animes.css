@@ -9,13 +9,22 @@ body {
 body {
     justify-content: space-around;
     flex-flow: column;
-    height: 150vh;
+    height: 200vh;
+
+
 }
 
+.AnimemainContainer{
+    display: flex;
+    flex-flow: column;
+
+
+}
 .container1 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+
 }
 
 .container2 {
@@ -71,8 +80,8 @@ body {
 
 .attack {
     background: url("../images/Anime-attack.png") no-repeat;
-    background-size: cover;
-    height: 300px;
+    background-size: contain;
+
     width: 300px;
     color: aliceblue;
     font-size: x-large;
@@ -84,7 +93,7 @@ body {
 
     background: url("../images/Anime-saga.png") no-repeat;
     background-size: contain;
-    height: 300px;
+
     width: 300px;
     color: aliceblue;
     font-size: x-large;
@@ -99,7 +108,6 @@ body {
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
-
 }
 
 .conan {
