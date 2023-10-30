@@ -4,7 +4,7 @@ body {
     font-size: 20px;
     justify-content: space-around;
     flex-flow: column;
-    height: 200vh;
+    height: 100vh;
 }
 
 .AnimemainContainer{
@@ -23,6 +23,7 @@ body {
 .container2 {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
     background: url("../images/animeBackground.png") no-repeat;
     background-size: cover;
     align-items: center;
@@ -111,6 +112,43 @@ body {
     color: aliceblue;
 }
 
+
+
+/* Styles for desktop screens */
+/* These will be applied for screens wider than 730px */
+@media (min-width: 731px) {
+    .AnimemainContainer {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .container1, .container2 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+
+    .peace, .attack, .saga, .neverland, .conan, .death {
+        flex-basis: auto;
+    }
+
+
+    /* screens up to 730px */
+    @media (max-width: 730px) {
+        body {
+            font-size: 16px; /* Smaller font size for better mobile readability */
+        }
+
+
+    }
+
+    /* stat footer*/
+
+
+
+
+}
 /* stat footer*/
 
 
@@ -139,7 +177,7 @@ body {
 
 @media (min-width: 1200px) {
     .titleLogo {
-        margin: 0 0 0 4.5em;
+        margin: 2rem 0 0 9rem;
         display: flex;
         flex-direction: column;
         text-shadow: -1px 0 #e90126, 0 1px #e90126, 1px 0 #e90126, 0 -1px #e90126;
@@ -151,6 +189,9 @@ body {
     }
     .navbar li {
         border: 2px solid #e90126;
+    }
+    .navbar {
+        margin-top: 9rem;
     }
 }
 
