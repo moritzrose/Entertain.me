@@ -186,7 +186,7 @@ main {
 
 @media (min-width: 1200px) {
     .titleLogo {
-        margin: 0 0 0 4.5em;
+        margin: 2rem 0 0 9rem;
         display: flex;
         flex-direction: column;
         color: black;
@@ -203,7 +203,7 @@ main {
         padding-top: 0;
         margin-left: 0;
         margin-bottom: 0;
-        margin-top: 6.5em;
+        margin-top: 9rem;
         height: auto;
         z-index: 1;
     }
