@@ -7,12 +7,9 @@ body {
 }
 
 body {
-    background: url("../images/animeBackground.png") ;
     justify-content: space-around;
     flex-flow: column;
     height: 150vh;
-
-
 }
 
 .container1 {
@@ -26,7 +23,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     background: url("../images/animeBackground.png") no-repeat;
-    background-size: contain;
+    background-size: cover;
     align-items: center;
     height: 800px;
 }
@@ -74,7 +71,7 @@ body {
 
 .attack {
     background: url("../images/Anime-attack.png") no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 300px;
     width: 300px;
     color: aliceblue;
