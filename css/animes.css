@@ -16,7 +16,6 @@ body {
 }
 
 .container1 {
-
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -26,9 +25,10 @@ body {
     border: coral solid 1px;
     display: flex;
     flex-flow: row wrap;
-    height: 800px;
     background: url("../images/animeBackground.png") no-repeat;
-
+    background-size: contain;
+    align-items: center;
+    height: 800px;
 }
 
 .button {
@@ -59,14 +59,13 @@ body {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+
 .peace {
-    display: flex;
     background: url("../images/Anime-onepeace.png") no-repeat;
-    background-size: 300px;
-    padding: 100px;
-    border-radius: 5%;
-    margin: 10px;
-    border: aliceblue;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
@@ -74,14 +73,10 @@ body {
 }
 
 .attack {
-    display: flex;
-    border: blue solid;
     background: url("../images/Anime-attack.png") no-repeat;
-    background-size: 400px;
-    padding: 100px;
-    border-radius: 5%;
-    margin: 10px;
-    border: aliceblue;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
@@ -89,27 +84,21 @@ body {
 }
 
 .saga {
-    border: blue solid;
-    display: flex;
-    background-size: 300px;
+
     background: url("../images/Anime-saga.png") no-repeat;
-    padding: 100px;
-    border-radius: 5%;
-    margin: 20px;
-    border: aliceblue;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
 }
 
 .neverland {
-    display: flex;
     background: url("../images/anime-never.png") no-repeat;
-    background-size: 300px;
-    padding: 200px;
-    border-radius: 5%;
-    margin: 10px;
-    border: aliceblue;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
@@ -117,25 +106,20 @@ body {
 }
 
 .conan {
-    display: flex;
     background: url("../images/Anime-conan.jpg") no-repeat;
-    background-size: 300px;
-    padding: 100px;
-    border-radius: 5%;
-    margin: 10px;
-    border: aliceblue;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
+
 }
 .death{
-    display: flex;
     background: url("../images/Anime-death .png") no-repeat;
-    background-size: 300px;
-    padding: 100px;
-    border-radius: 5%;
-    margin: 10px;
-    border: aliceblue;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
