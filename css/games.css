@@ -124,6 +124,16 @@ iframe {
     text-shadow: -1px 0 #f3d66c, 0 1px #f3d66c, 1px 0 #f3d66c, 0 -1px #f3d66c;
 }
 
+.footerContainer {
+    text-decoration: none;
+    color: #f3d66c;
+    padding: 1em;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    font-size:  0.8rem;
+}
+
 @media (min-width: 1200px) {
     .titleLogo {
         margin: 0 0 0 4.5em;
