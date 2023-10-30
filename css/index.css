@@ -75,6 +75,32 @@ main {
     align-items: center;
     z-index: 1;
 }
+.boredContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.boredSign {
+
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    animation: typing 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
 
 .mainContainer {
     margin-bottom: 4rem;
