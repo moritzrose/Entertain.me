@@ -170,6 +170,16 @@ body {
     text-shadow: -1px 0 #e90126, 0 1px #e90126, 1px 0 #e90126, 0 -1px #e90126;
 }
 
+.footerContainer {
+    text-decoration: none;
+    color: #e90126;
+    padding: 1em;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    font-size:  0.8rem;
+}
+
 @media (min-width: 1200px) {
     .titleLogo {
         margin: 0 0 0 4.5em;
