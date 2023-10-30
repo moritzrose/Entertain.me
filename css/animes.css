@@ -4,43 +4,41 @@
 body {
     font-family: monospace;
     font-size: 20px;
-
-}
-
-
-
-* {
-    font-family: 'Ubuntu Condensed', sans-serif;
-
 }
 
 body {
-    background-image: linear-gradient(darkgrey, dimgrey);
-    display: flex;
     justify-content: space-around;
     flex-flow: column;
-    height: 100vh;
+    height: 200vh;
+
 
 }
 
-.container1 {
+.AnimemainContainer{
+    display: flex;
+    flex-flow: column;
 
+
+}
+.container1 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+
 }
 
 .container2 {
     border: coral solid 1px;
     display: flex;
     flex-flow: row wrap;
+    background: url("../images/animeBackground.png") no-repeat;
+    background-size: cover;
+    align-items: center;
     height: 800px;
-    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/555ab8b0-56f5-452f-ad19-1f9f52643244/d89jr66-6b83fb4b-c77d-4eaa-96c4-dc21e824f08f.jpg/v1/fill/w_1024,h_712,q_75,strp/naruto_group_lineart__by_yachiru_likes_candy_d89jr66-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzEyIiwicGF0aCI6IlwvZlwvNTU1YWI4YjAtNTZmNS00NTJmLWFkMTktMWY5ZjUyNjQzMjQ0XC9kODlqcjY2LTZiODNmYjRiLWM3N2QtNGVhYS05NmM0LWRjMjFlODI0ZjA4Zi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ZnLNg0HUUMxtIdsu6dABbFbupx2owamvEx5ia7fNoi4");
-
 }
 
 .button {
-    background-color: palegoldenrod; /* Green */
+    background-color: midnightblue; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -67,14 +65,13 @@ body {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+
 .peace {
-    display: flex;
-    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d77b588c-cb12-4958-809b-3a9526e260e2/d7x6xjz-4b9174c5-08b4-4967-9ae4-7097deabacf9.jpg/v1/fill/w_894,h_894,q_70,strp/the_pirate_king_by_chiire_d7x6xjz-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2Q3N2I1ODhjLWNiMTItNDk1OC04MDliLTNhOTUyNmUyNjBlMlwvZDd4Nnhqei00YjkxNzRjNS0wOGI0LTQ5NjctOWFlNC03MDk3ZGVhYmFjZjkuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.QrXkWVlS58CdPRrj2gmhCuMSEw002sdywcGGRwfM_aA");
-    background-size: 300px;
-    padding: 100px;
-    border-radius: 5%;
-    margin: 10px;
-    border: aliceblue;
+    background: url("../images/Anime-onepeace.png") no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
@@ -82,68 +79,48 @@ body {
 }
 
 .attack {
-    display: flex;
-    border: blue solid;
-    background-image: url("https://wallpapercave.com/dwp2x/wp1837541.jpg");
-    background-size: 300px;
-    padding: 100px;
-    border-radius: 5%;
-    margin: 10px;
-    border: aliceblue;
+    background: url("../images/Anime-attack.png") no-repeat;
+    background-size: contain;
+    width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
-
 }
 
 .saga {
-    border: blue solid;
-    display: flex;
-    background-size: 300px;
-    background-image: url("https://w0.peakpx.com/wallpaper/247/824/HD-wallpaper-vinland-saga-edit-sky-pirates-edits-anime-edits.jpg");
-    padding: 100px;
-    border-radius: 5%;
-    margin: 20px;
-    border: aliceblue;
+    background: url("../images/Anime-saga.png") no-repeat;
+    background-size: contain;
+    width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
 }
 
 .neverland {
-    display: flex;
-    background-image: url("https://w0.peakpx.com/wallpaper/438/616/HD-wallpaper-yakusoku-anime-the-promised-neverland-yakusku-no-neverland.jpg");
-    background-size: 300px;
-    padding: 100px;
-    border-radius: 5%;
-    margin: 10px;
-    border: aliceblue;
+    background: url("../images/anime-never.png") no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
-
 }
 
 .conan {
-    display: flex;
-    background-image: url("https://w0.peakpx.com/wallpaper/193/166/HD-wallpaper-detective-conan-anime-cased-close-conan.jpg");
-    background-size: 300px;
-    padding: 100px;
-    border-radius: 5%;
-    margin: 10px;
-    border: aliceblue;
+    background: url("../images/Anime-conan.jpg") no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
+
 }
 .death{
-    display: flex;
-    background-image: url("https://e0.pxfuel.com/wallpapers/767/466/desktop-wallpaper-death-note-paint-anime-note-death.jpg");
-    background-size: 300px;
-    padding: 100px;
-    border-radius: 5%;
-    margin: 10px;
-    border: aliceblue;
+    background: url("../images/Anime-death .png") no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
@@ -152,7 +129,72 @@ body {
 /* stat footer*/
 
 
-.impressum:hover {
-    background-color: grey;
+.footerContainer {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.head{
+    font-size:  15px;
+    color: white;
+}
+.kontakt{
+    color: white;
+}
+.produkte{
+    color: white ;
+}
+.leistung{
+    color: white;
+}
+
+.impressum:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.navbar li {
+    border: 2px solid #e90126;
+}
+
+.navbar li a {
+    background-color: black;
+    color: #e90126;
+}
+
+.titleLogo {
+    text-shadow: -1px 0 #e90126, 0 1px #e90126, 1px 0 #e90126, 0 -1px #e90126;
+}
+
+.footerContainer {
+    text-decoration: none;
+    color: #e90126;
+    padding: 1em;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    font-size:  0.8rem;
+}
+
+@media (min-width: 1200px) {
+    .titleLogo {
+        margin: 0 0 0 4.5em;
+        display: flex;
+        flex-direction: column;
+        text-shadow: -1px 0 #e90126, 0 1px #e90126, 1px 0 #e90126, 0 -1px #e90126;
+        color: black;
+        font-size: xxx-large;
+        font-weight: bold;
+        align-items: center;
+        z-index: 1;
+    }
+    .navbar li {
+        border: 2px solid #e90126;
+    }
 }
 
