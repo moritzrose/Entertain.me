@@ -1,24 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
-
 
 body {
     font-family: monospace;
     font-size: 20px;
-    background: url("../images/animeBackground.png") ;
     justify-content: space-around;
     flex-flow: column;
-    height: 150vh;
+    height: 200vh;
 
 
 }
 
-* {
-    font-family: 'Ubuntu Condensed', sans-serif;
-
-}
 .AnimemainContainer{
     display: flex;
     flex-flow: column;
+
 
 }
 .container1 {
@@ -33,7 +27,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     background: url("../images/animeBackground.png") no-repeat;
-    background-size: contain;
+    background-size: cover;
     align-items: center;
     height: 800px;
 }
@@ -82,7 +76,7 @@ body {
 .attack {
     background: url("../images/Anime-attack.png") no-repeat;
     background-size: contain;
-    height: 300px;
+
     width: 300px;
     color: aliceblue;
     font-size: x-large;
@@ -94,7 +88,7 @@ body {
 
     background: url("../images/Anime-saga.png") no-repeat;
     background-size: contain;
-    height: 300px;
+
     width: 300px;
     color: aliceblue;
     font-size: x-large;
