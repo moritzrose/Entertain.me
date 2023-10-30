@@ -81,19 +81,15 @@ body {
 .attack {
     background: url("../images/Anime-attack.png") no-repeat;
     background-size: contain;
-
     width: 300px;
     color: aliceblue;
     font-size: x-large;
     font-weight: bold;
-
 }
 
 .saga {
-
     background: url("../images/Anime-saga.png") no-repeat;
     background-size: contain;
-
     width: 300px;
     color: aliceblue;
     font-size: x-large;
