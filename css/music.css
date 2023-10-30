@@ -4,6 +4,7 @@ main {
 }
 
 .music_MainContainer {
+    padding-top: 10rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

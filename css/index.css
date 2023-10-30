@@ -75,15 +75,6 @@ main {
     z-index: 1;
 }
 
-@media (min-width: 1200px) {
-    .titleLogo {
-        margin: 0 0 0 4.5em;
-        display: flex;
-        flex-direction: column;
-        color: black;
-        font-size: xxx-large;
-        z-index: 1;
-    }
     .navbar li {
         float: left;
         font-size: 10px;
@@ -98,10 +89,10 @@ main {
         height: auto;
         z-index: 1;
     }
-}
 
 .mainContainer {
-    padding: 2rem;
+    margin-bottom: 4rem;
+    padding: 20rem 2rem;
     display: flex;
     justify-content: space-evenly;
     background: url("../images/mainBackground.png") no-repeat;
@@ -203,10 +194,20 @@ main {
     text-decoration: none;
 }
 @media (min-width: 800px) {
-    width: 50%;
+    .topic {
+        width: 30%;
+    }
 }
 
 @media (min-width: 1200px) {
+    .titleLogo {
+        margin: 0 0 0 4.5em;
+        display: flex;
+        flex-direction: column;
+        color: black;
+        font-size: xxx-large;
+        z-index: 1;
+    }
     .mainContainer {
         flex-direction: row;
         align-items: center;

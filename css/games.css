@@ -11,7 +11,8 @@ body {
 }
 
 .iconContainer {
-    padding: 2em;
+    padding: 2rem;
+    padding-top: 10rem;
     box-shadow: 4px 4px 15px black;
     display: flex;
     flex-direction: column;
@@ -123,6 +124,7 @@ iframe {
 .titleLogo {
     text-shadow: -1px 0 #f3d66c, 0 1px #f3d66c, 1px 0 #f3d66c, 0 -1px #f3d66c;
 }
+
 
 .footerContainer {
     text-decoration: none;
