@@ -187,13 +187,23 @@ main {
     background-color: transparent;
 }
 
-@media screen and (max-width: 415px) {
+.mainContainer {
+    flex-direction: column;
+    align-items: center;
+}
+.topic {
+    width: 70%;
+    margin: 3rem;
+}
+
+@media (min-width: 1000px) {
     .mainContainer {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     .topic {
-        width: 70%;
-        margin: 3rem;
+        width: 15%;
+        margin: 1rem;
     }
 }
+
