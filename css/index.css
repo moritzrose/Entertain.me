@@ -203,7 +203,9 @@ main {
     text-decoration: none;
 }
 @media (min-width: 800px) {
-    width: 50%;
+    .topic {
+        width: 30%;
+    }
 }
 
 @media (min-width: 1200px) {
