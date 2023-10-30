@@ -11,7 +11,8 @@ body {
 }
 
 .iconContainer {
-    padding: 2em;
+    padding: 2rem;
+    padding-top: 10rem;
     box-shadow: 4px 4px 15px black;
     display: flex;
     flex-direction: column;
