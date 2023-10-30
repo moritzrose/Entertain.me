@@ -144,39 +144,10 @@ body {
     }
 
     /* stat footer*/
-    .footerContainer {
-        display: flex;
-        background-color: black;
-        flex-direction: column;
-    }
 
-    .list {
-        display: flex;
-        justify-content: space-around;
-        color: white;
-    }
 
-    .head {
-        font-size: 15px;
-        color: white;
-    }
 
-    .kontakt {
-        color: white;
-    }
 
-    .produkte {
-        color: white;
-    }
-
-    .leistung {
-        color: white;
-    }
-
-    .impressum:hover {
-        background-color: transparent;
-        color: white;
-    }
 }
 /* stat footer*/
 
