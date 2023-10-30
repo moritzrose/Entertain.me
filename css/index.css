@@ -52,6 +52,7 @@ main {
 .navbar li a {
     display: block;
     color: white;
+    background-color: black;
     text-align: center;
     font-size: x-large;
     font-weight: bold;
