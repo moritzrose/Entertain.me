@@ -202,8 +202,11 @@ main {
     justify-content: space-around;
     text-decoration: none;
 }
+@media (min-width: 800px) {
+    width: 50%;
+}
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     .mainContainer {
         flex-direction: row;
         align-items: center;
